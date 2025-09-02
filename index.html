@@ -1,69 +1,18 @@
-<head><script defer src="main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'html-loader' in '/home/arnav_sr/restau  rant-pg'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'html-loader' in '  /home/arnav_sr/restaurant-pg'
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/Compilation.js:22  65:28
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/NormalModuleFacto  ry.js:949:13
-      at eval (eval at create (/home/arnav_sr/restaurant-pg/node_modules/tapable  /lib/HookCodeFactory.js:31:10), <anonymous>:10:1)
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/NormalModuleFacto  ry.js:347:22
-      at eval (eval at create (/home/arnav_sr/restaurant-pg/node_modules/tapable  /lib/HookCodeFactory.js:31:10), <anonymous>:9:1)
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/NormalModuleFacto  ry.js:661:15
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/NormalModuleFacto  ry.js:163:10
-      at /home/arnav_sr/restaurant-pg/node_modules/webpack/lib/NormalModuleFacto  ry.js:746:8
-      at /home/arnav_sr/restaurant-pg/node_modules/neo-async/async.js:2830:7
-      at done (/home/arnav_sr/restaurant-pg/node_modules/neo-async/async.js:2925  :13)
-  
-  - Compilation.js:2265 
-    [restaurant-pg]/[webpack]/lib/Compilation.js:2265:28
-  
-  - NormalModuleFactory.js:949 
-    [restaurant-pg]/[webpack]/lib/NormalModuleFactory.js:949:13
-  
-  
-  - NormalModuleFactory.js:347 
-    [restaurant-pg]/[webpack]/lib/NormalModuleFactory.js:347:22
-  
-  
-  - NormalModuleFactory.js:661 
-    [restaurant-pg]/[webpack]/lib/NormalModuleFactory.js:661:15
-  
-  - NormalModuleFactory.js:163 
-    [restaurant-pg]/[webpack]/lib/NormalModuleFactory.js:163:10
-  
-  - NormalModuleFactory.js:746 
-    [restaurant-pg]/[webpack]/lib/NormalModuleFactory.js:746:8
-  
-  - async.js:2830 
-    [restaurant-pg]/[neo-async]/async.js:2830:7
-  
-  - async.js:2925 done
-    [restaurant-pg]/[neo-async]/async.js:2925:13
-  
-  - child-compiler.js:211 
-    [restaurant-pg]/[html-webpack-plugin]/lib/child-compiler.js:211:18
-  
-  - Compiler.js:650 finalCallback
-    [restaurant-pg]/[webpack]/lib/Compiler.js:650:5
-  
-  - Compiler.js:686 
-    [restaurant-pg]/[webpack]/lib/Compiler.js:686:11
-  
-  - Compiler.js:1377 
-    [restaurant-pg]/[webpack]/lib/Compiler.js:1377:17
-  
-  
-  - Hook.js:21 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [restaurant-pg]/[tapable]/lib/Hook.js:21:14
-  
-  - Compiler.js:1373 
-    [restaurant-pg]/[webpack]/lib/Compiler.js:1373:33
-  
-  - Compilation.js:3098 finalCallback
-    [restaurant-pg]/[webpack]/lib/Compilation.js:3098:11
-  
-  - Compilation.js:3439 
-    [restaurant-pg]/[webpack]/lib/Compilation.js:3439:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Plum Restaurant</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="container">
+      <header>
+        <nav></nav>
+      </header>
+      <div id="content"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
